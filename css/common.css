@@ -1,0 +1,119 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+}
+.shortcut{
+    width: 100%;
+    height: 40px;
+    background-color: #f1f1f1;
+    position: relative;
+}
+.banner_head{
+    width: 80%;
+    margin: auto;
+}
+.left_shortcut{
+    /* margin-left: 50px; */
+    float: left;
+    line-height: 40px;
+}
+.search_nav li{
+    padding: 0px 0px 10px 10px;
+    float: left;
+    font-size: 12px;
+}
+.a_red{
+    color: red;
+}
+.right_shortcut li{
+    margin-right: 10px;
+    float: right;
+    line-height: 40px;
+}
+.header{
+    height: 105px;
+    /* border: 1px solid red; */
+    position: relative;
+}
+.search_header{
+    /* display: block; */
+    border: 1px solid red;
+    width: 450px;
+    height: 40px;
+}
+.logo{
+    position: absolute;
+    top: 25px;
+    width: 175px;
+    height: 56px;
+}
+.logo a {
+    display: block;
+    width: 175px;
+    height: 56px;
+    background: url(../images/logo.png) no-repeat;
+    font-size: 0px;
+}
+.search_button{
+    width: 60px;
+    height: 40px;
+    background-color: #b2191b;
+    color: #ffff;
+}
+.search_area{
+    position: absolute;
+    top: 50%;
+    margin-top: -20px;
+    left: 50%;
+    margin-left: -255px;
+}
+.search_nav{
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    top: 70%;
+    /* font-size: 10px; */
+}
+.shopping{
+    position: absolute;
+    border: 1px solid gray;
+    width: 100px;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #f7f7f7;
+    right: 10%;
+    top: 50%;
+    line-height: 40px;
+    margin-top: -23px;
+}
+.divide{
+    width: 100%;
+    height: 2px;
+    background-color: #b2191b;
+    clear: both;
+}
+.banner_nav li{
+    float: left;
+    width: 60px;
+    padding: 15px;
+    margin-left: 1px;
+    border-bottom: 1px solid gray;
+}
+.banner_nav{
+    position: absolute;
+    left: 50%;
+    margin-left: -363px;
+   
+}
+.clear{
+    clear: both;
+}
